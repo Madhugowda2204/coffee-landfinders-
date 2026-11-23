@@ -1179,7 +1179,7 @@ useEffect(() => {
   const fetchProperties = async () => {
     try {
       const response = await fetch(
-        'http://localhost:5000/api/properties'
+        'https://coffee-landfinders-api.onrender.com/api/properties'
       )
 
       const data = await response.json()
