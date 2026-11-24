@@ -16,7 +16,7 @@ import {
 } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 
-const API ='https://coffee-landfinders-api.onrender.com'
+const API ='https://coffee-landfinders-api.onrender.com/api'
 
 const emptyForm = {
   title: '',
